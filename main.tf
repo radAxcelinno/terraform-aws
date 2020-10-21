@@ -7,6 +7,6 @@ resource "aws_instance" "vm" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "created from MCM"
+    Name = "V2: created from MCM"
   }
 }
